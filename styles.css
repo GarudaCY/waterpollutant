@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    color: #964e02;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: skyblue;
+    padding: 1px 10px 1px 40px;
+    text-align: left;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+header .logo a {
+    background-image: url(/images/weblogo.png);
+    background-size: 61px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 60px;
+    position: relative;
+    text-indent: -99999999999px;
+    top: -25px;
+    width: 70px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.features {
+    background-color: #b1ccc5;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    text-align: center;
+    
+}
+.features figure {
+    text-align: center;
+    width: 30%;
+    margin: 10px;
+}
+footer {
+    background-color: #89bbae;
+    padding: 10px;
+    text-align: center;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+.kate {
+    background-color: #b1ccc5;
+    padding: 100px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px 40px;
+}
+.heven {
+    background-color: #b1ccc5;
+    padding: 100px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px 40px;
+}
+.cute {
+    width: 600px;
+    height: 400px;
+}
+h1 {
+    color: hsl(0, 0%, 10%);
+}
+h2 {
+    color: hsl(0, 0%, 20%);
+}
+h3 {
+    color: hsl(0, 0%, 30%);
+}
+p {
+    color: hsl(0, 0%, 40%);
+}
+ul {
+    color: hsl(0, 0%, 47%);
+}
+.desi {
+    background-color: #b1ccc5;
+    z-index: 2;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    text-align: left;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.mot {
+    background-color: #b1ccc5;
+}
+#map {
+    position: relative;
+    background-color: #b1ccc5;
+    display: block;
+    height: 480px;
+    margin: 20px auto;
+    padding: 0;
+    text-align: center;
+    max-width: 650px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 768px) {
+    header .logo a {
+        background-size: 41px;
+        height: 40px;
+        top: -12px;
+        width: 50px;
+    }
+    
+    header a {
+        margin-top: 10px;
+    }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .features figure {
+        width: 100%;
+    }
+} 
